@@ -1,1 +1,1 @@
-this is first one
+(this repository contains solutions to shell tasks)
