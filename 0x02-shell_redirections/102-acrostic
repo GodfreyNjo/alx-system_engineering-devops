@@ -1,0 +1,2 @@
+#!/bin/bash
+head -n 1 acrostic.txt | cut -c1; tail -n +2 acrostic.txt | cut -c1 | tr -d '\n' > decoded.txt; echo >> decoded.txt; cat decoded.txt
