@@ -1,2 +1,2 @@
 #!/bin/bash
-compgen -v | cat - compgen -e | cat - compgen -A function
+{ compgen -v; compgen -e; } | sort | uniq > "${HOME}/vars.txt"
